@@ -26,7 +26,7 @@ public class Playlist implements Serializable {
         this.dateCreation = new java.util.Date().toString();
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getNom() { return nom; }
     public void setNom(String nom) { this.nom = nom; }
@@ -37,7 +37,7 @@ public class Playlist implements Serializable {
 
     public String getDateCreation() { return dateCreation; }
 
-    // ===== Gestion des morceaux =====
+    // Gestion des morceaux
 
     /**
      * Ajoute un morceau à la playlist.

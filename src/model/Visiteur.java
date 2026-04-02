@@ -17,7 +17,7 @@ public class Visiteur extends Utilisateur {
         this.nbEcoutesSession = 0;
     }
 
-    // ===== Getters =====
+    // Getters
 
     public int getNbEcoutesSession() { return nbEcoutesSession; }
     public int getLimiteEcoutes() { return LIMITE_ECOUTES; }

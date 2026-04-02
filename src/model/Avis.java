@@ -26,7 +26,7 @@ public class Avis implements Serializable {
         this.auteur = auteur;
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public int getNote() { return note; }
     public void setNote(int note) {

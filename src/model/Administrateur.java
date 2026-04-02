@@ -15,7 +15,7 @@ public class Administrateur extends Utilisateur {
         super(identifiant, motDePasse);
     }
 
-    // ===== Gestion du catalogue =====
+    // Gestion du catalogue
 
     /**
      * Ajoute un morceau au catalogue.
@@ -71,7 +71,7 @@ public class Administrateur extends Utilisateur {
         catalogue.removeArtiste(artiste);
     }
 
-    // ===== Gestion des abonnés =====
+    // Gestion des abonnés
 
     /**
      * Suspend le compte d'un abonné.

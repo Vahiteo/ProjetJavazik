@@ -30,7 +30,7 @@ public class Album implements Serializable {
         this.morceaux = new ArrayList<>();
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getTitre() { return titre; }
     public void setTitre(String titre) { this.titre = titre; }

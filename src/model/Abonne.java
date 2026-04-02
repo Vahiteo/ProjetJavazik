@@ -28,7 +28,7 @@ public class Abonne extends Utilisateur {
         this.statut = "actif";
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
@@ -40,7 +40,7 @@ public class Abonne extends Utilisateur {
     public String getStatut() { return statut; }
     public void setStatut(String statut) { this.statut = statut; }
 
-    // ===== Gestion des playlists =====
+    // Gestion des playlists
 
     /**
      * Crée une nouvelle playlist et l'ajoute à la liste.

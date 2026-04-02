@@ -25,7 +25,7 @@ public abstract class Artiste implements Serializable {
         this.albums = new ArrayList<>();
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getNom() { return nom; }
     public void setNom(String nom) { this.nom = nom; }

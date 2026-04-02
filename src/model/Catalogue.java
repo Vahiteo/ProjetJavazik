@@ -26,7 +26,7 @@ public class Catalogue implements Serializable {
         this.artistes = new ArrayList<>();
     }
 
-    // ===== Gestion des morceaux =====
+    // Gestion des morceaux
 
     public List<Morceau> getMorceaux() { return morceaux; }
 
@@ -38,7 +38,7 @@ public class Catalogue implements Serializable {
 
     public void removeMorceau(Morceau morceau) { morceaux.remove(morceau); }
 
-    // ===== Gestion des albums =====
+    // Gestion des albums
 
     public List<Album> getAlbums() { return albums; }
 
@@ -50,7 +50,7 @@ public class Catalogue implements Serializable {
 
     public void removeAlbum(Album album) { albums.remove(album); }
 
-    // ===== Gestion des artistes =====
+    // Gestion des artistes
 
     public List<Artiste> getArtistes() { return artistes; }
 

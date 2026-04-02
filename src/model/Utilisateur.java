@@ -21,7 +21,7 @@ public abstract class Utilisateur implements Serializable {
         this.motDePasse = motDePasse;
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getIdentifiant() { return identifiant; }
     public void setIdentifiant(String identifiant) { this.identifiant = identifiant; }

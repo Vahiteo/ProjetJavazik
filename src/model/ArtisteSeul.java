@@ -22,7 +22,7 @@ public class ArtisteSeul extends Artiste {
         this.dateNaissance = dateNaissance;
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getPrenom() { return prenom; }
     public void setPrenom(String prenom) { this.prenom = prenom; }

@@ -20,7 +20,7 @@ public class HistoriqueEcoute implements Serializable {
         this.dates = new ArrayList<>();
     }
 
-    // ===== Getters =====
+    // Getters
 
     public List<Morceau> getMorceaux() { return morceaux; }
     public List<String> getDates() { return dates; }

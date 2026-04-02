@@ -32,7 +32,7 @@ public class Morceau implements Serializable {
         this.nbEcoutes = 0;
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public String getTitre() { return titre; }
     public void setTitre(String titre) { this.titre = titre; }

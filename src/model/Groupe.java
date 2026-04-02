@@ -24,7 +24,7 @@ public class Groupe extends Artiste {
         this.anneeFormation = anneeFormation;
     }
 
-    // ===== Getters / Setters =====
+    // Getters / Setters
 
     public List<ArtisteSeul> getMembres() { return membres; }
 
