@@ -17,7 +17,7 @@ public class ConsoleView {
         this.scanner = new Scanner(System.in);
     }
 
-    // ===== Lecture des entrées =====
+    // Lecture des entrées
 
     /**
      * Lit une saisie texte de l'utilisateur.
@@ -46,7 +46,7 @@ public class ConsoleView {
         }
     }
 
-    // ===== Affichage des menus =====
+    // Affichage des menus
 
     /**
      * Affiche le menu principal.
@@ -54,7 +54,7 @@ public class ConsoleView {
     public void afficherMenuPrincipal() {
         System.out.println("\n==============================");
         System.out.println("            JAVAZIC           ");
-        System.out.println("-------------------------------");
+        System.out.println("");
         System.out.println("  1. Se connecter (Admin)     ");
         System.out.println("  2. Se connecter (Client)    ");
         System.out.println("  3. Créer un compte          ");
@@ -69,7 +69,7 @@ public class ConsoleView {
     public void afficherMenuVisiteur() {
         System.out.println("\n==============================");
         System.out.println("       MENU VISITEUR          ");
-        System.out.println("--------------------------------");
+        System.out.println("");
         System.out.println("  1. Rechercher un morceau    ");
         System.out.println("  2. Rechercher un album      ");
         System.out.println("  3. Rechercher un artiste    ");
@@ -84,7 +84,7 @@ public class ConsoleView {
     public void afficherMenuAbonne() {
         System.out.println("\n==============================");
         System.out.println("        MENU ABONNÉ           ");
-        System.out.println("--------------------------------");
+        System.out.println("");
         System.out.println("  1. Rechercher un morceau    ");
         System.out.println("  2. Rechercher un album      ");
         System.out.println("  3. Rechercher un artiste    ");
@@ -102,7 +102,7 @@ public class ConsoleView {
     public void afficherMenuAdmin() {
         System.out.println("\n==============================");
         System.out.println("      MENU ADMINISTRATEUR     ");
-        System.out.println("--------------------------------");
+        System.out.println("");
         System.out.println("  1. Ajouter un morceau       ");
         System.out.println("  2. Supprimer un morceau     ");
         System.out.println("  3. Ajouter un album         ");
@@ -121,7 +121,7 @@ public class ConsoleView {
     public void afficherMenuPlaylists() {
         System.out.println("\n==============================");
         System.out.println("      GESTION PLAYLISTS       ");
-        System.out.println("--------------------------------");
+        System.out.println("");
         System.out.println("  1. Créer une playlist       ");
         System.out.println("  2. Voir mes playlists       ");
         System.out.println("  3. Voir morceaux playlist   ");
@@ -133,7 +133,7 @@ public class ConsoleView {
         System.out.println("==============================");
     }
 
-    // ===== Affichage des données =====
+    // Affichage des données
 
     /**
      * Affiche une liste de morceaux numérotée.
@@ -243,7 +243,7 @@ public class ConsoleView {
         System.out.println("Abonnés   : " + abonnes.size());
     }
 
-    // ===== Messages =====
+    // Messages
 
     /**
      * Affiche un message simple.

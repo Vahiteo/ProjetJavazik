@@ -102,7 +102,7 @@ public class Controller {
 
 
 
-    // ===== Connexion =====
+    // Connexion
 
     /**
      * Gère la connexion administrateur.
@@ -158,7 +158,7 @@ public class Controller {
         vue.afficherSucces("Compte créé avec succès \n Bienvenue " + id + " ");
     }
 
-    // ===== Menu Visiteur =====
+    // Menu Visiteur
 
     /**
      * Gère le menu visiteur.
@@ -179,7 +179,7 @@ public class Controller {
         }
     }
 
-    // ===== Menu Abonné =====
+    // Menu Abonné
 
     /**
      * Gère le menu abonné.
@@ -204,7 +204,7 @@ public class Controller {
         utilisateurConnecte = null;
     }
 
-    // ===== Menu Admin =====
+    // Menu Admin
 
     /**
      * Gère le menu administrateur.
@@ -229,7 +229,7 @@ public class Controller {
         utilisateurConnecte = null;
     }
 
-    // ===== Recherche =====
+    // Recherche
 
     private void rechercherMorceau() {
         String titre = vue.lireString("Titre du morceau : ");
@@ -370,7 +370,7 @@ public class Controller {
         }
     }
 
-    // ===== Écoute =====
+    // Écoute
 
     private void ecouterMorceauVisiteur(Visiteur visiteur) {
         if (!visiteur.peutEcouter()) {
@@ -399,7 +399,7 @@ public class Controller {
         }
     }
 
-    // ===== Playlists =====
+    // Playlists
 
     private void gererPlaylists(Abonne abonne) {
         boolean retour = false;
@@ -599,7 +599,7 @@ public class Controller {
         vue.afficherSucces("Playlist renommée en \"" + nouveauNom + "\" !");
     }
 
-    // ===== Avis =====
+    // Avis
 
     private void laisserAvis(Abonne abonne) {
         vue.afficherMorceaux(catalogue.getMorceaux());
@@ -642,7 +642,7 @@ public class Controller {
         }
     }
 
-    // ===== Gestion Admin =====
+    // Gestion Admin
 
     private void ajouterMorceau() {
         String titre = vue.lireString("Titre du morceau : ");
@@ -738,7 +738,7 @@ public class Controller {
 
 
 
-    // ===== Méthodes graphiques =====
+    // Méthodes graphiques
 
     /**
      * Sauvegarde les données (appelée à la fermeture de la fenêtre).

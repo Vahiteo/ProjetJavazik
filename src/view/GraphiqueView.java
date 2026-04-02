@@ -579,7 +579,7 @@ public class GraphiqueView extends JFrame {
         JOptionPane.showMessageDialog(this, scroll, " Historique d'écoute", JOptionPane.PLAIN_MESSAGE);
     }
 
-    // ===== Messages =====
+    // Messages
 
     public void afficherErreur(String message) {
         JOptionPane.showMessageDialog(this, message, "Erreur", JOptionPane.ERROR_MESSAGE);
